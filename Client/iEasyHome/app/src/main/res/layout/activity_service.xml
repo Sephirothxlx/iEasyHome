@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:gravity="center_horizontal"
+            android:text="服务名称"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:gravity="center_horizontal"
+            android:text="家居名称"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <!-- ListView控件 -->
+    <!--<ScrollView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:scrollbars="vertical">-->
+    <!--&lt;!&ndash; 标题 &ndash;&gt;-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:orientation="vertical">-->
+
+    <ListView
+        android:id="@+id/service_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/service_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="添加" />
+    <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+</LinearLayout>
